@@ -1,44 +1,63 @@
-# Real-Time Traffic Sign Analysis
+# Real-Time Traffic Sign Recognition
 
 ## Project Overview
-The Real-Time Traffic Sign Analysis project aims to develop a traffic sign classification system that identifies and translates traffic signs in real-time. This application enhances road safety by providing drivers with immediate recognition and understanding of road signs.
+The **Real-Time Traffic Sign Recognition** project aims to develop a system that can instantly identify and interpret traffic signs. The application enhances road safety by providing drivers with immediate recognition and understanding of road signs, improving their ability to make informed decisions while driving.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation Instructions](#installation-instructions)
+- [Usage Guidelines](#usage-guidelines)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
-- Real-time detection and classification of traffic signs using a convolutional neural network (CNN).
-- User-friendly graphical interface for easy image uploads and sign classification.
-- Multilingual support for sign translations using the Google Translator API.
-- Visualization of accuracy and loss metrics during model training.
+- **Real-Time Sign Classification**: Detects and classifies traffic signs using a Convolutional Neural Network (CNN).
+- **User-Friendly Interface**: Intuitive graphical user interface (GUI) that allows for easy image uploads and sign classification.
+- **Multilingual Support**: Translates traffic signs into different languages using the Google Translator API.
+- **Model Training Visualization**: Tracks and visualizes accuracy and loss metrics during model training.
 
 ## Technologies Used
-- **Programming Languages**: Python
-- **Libraries/Frameworks**: Keras, TensorFlow, OpenCV, Matplotlib, Pandas, Tkinter, Google Translator API
+- **Programming Language**: Python
+- **Libraries/Frameworks**: 
+  - Keras
+  - TensorFlow
+  - OpenCV
+  - Matplotlib
+  - Pandas
+  - Tkinter
+  - Google Translator API
 - **Model Architecture**: Convolutional Neural Network (CNN)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.gitw
-2. Navigate to the project directory:
-   ```bash
-    cd Real-Time-Traffic-Sign-Analysis
-3. Install the required packages
-   ```bash
-     pip install tensorflow keras sklearn matplotlib pandas pil
-4. Run the MODEL first
-   ```bash
-   python traffic_sign.py
 
-It will take some time
-  
-5. Run Main file Now
-  ```bash
-    python fgui.py
+Installation Instructions
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Recognition.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd Real-Time-Traffic-Sign-Recognition
+Install the required dependencies:
+
+bash
+Copy code
+pip install tensorflow keras scikit-learn matplotlib pandas pillow
+Train the model by running:
+
+bash
+Copy code
+python traffic_sign.py
+Note: The training process may take some time.
+
+After the model is trained, launch the main application:
+
+bash
+Copy code
+python fgui.py
+This will open the graphical interface for sign detection and classification.
+
