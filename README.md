@@ -30,34 +30,25 @@ The **Real-Time Traffic Sign Recognition** project aims to develop a system that
   - Google Translator API
 - **Model Architecture**: Convolutional Neural Network (CNN)
 
+## Installation Instructions
+Follow these steps to get the project up and running:
 
-Installation Instructions
-Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.gitw
+2. Navigate to the project directory:
+   ```bash
+    cd Real-Time-Traffic-Sign-Analysis
+3. Install the required packages
+   ```bash
+     pip install tensorflow keras sklearn matplotlib pandas pil
+4. Run the MODEL first
+   ```bash
+   python traffic_sign.py
 
-bash
-Copy code
-git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Recognition.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd Real-Time-Traffic-Sign-Recognition
-Install the required dependencies:
-
-bash
-Copy code
-pip install tensorflow keras scikit-learn matplotlib pandas pillow
-Train the model by running:
-
-bash
-Copy code
-python traffic_sign.py
-Note: The training process may take some time.
-
-After the model is trained, launch the main application:
-
-bash
-Copy code
-python fgui.py
-This will open the graphical interface for sign detection and classification.
+It will take some time
+  
+5. Run Main file Now
+  ```bash
+    python fgui.py
 
